@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ecriture numérique</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap"
+      rel="stylesheet"
+    />
+
+    <style>
+      body {
+        background: #e3d4c7;
+        font-family: "Playfair Display", serif;
+      }
+      h1 {
+        color: #513a28;
+        font-size: 30px;
+        text-align: center;
+        border-radius: 4px;
+        border: 1px solid #a47550;
+        border-color: #a47550;
+        margin: 10px 0px 0px 0px;
+        background-color: #cfb49f;
+        padding: 10px;
+        text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2);
+      }
+      div {
+        border: 1px solid transparent;
+      }
+      button {
+        display: block;
+        margin: 20px auto;
+        color: #513a28;
+        font-size: 30px;
+        background: transparent;
+        padding: 15px 20px;
+        border-radius: 8px;
+        border-style: solid;
+        border: 1px solid #a47550;
+        font-family: "Playfair Display", serif;
+        cursor: pointer;
+      }
+
+      button:hover {
+        background-color: #a47550;
+        box-shadow: 0 8px 8px 0 rgba(0, 0, 0, 0.2);
+      }
+
+      img {
+        display: block;
+        margin: 0 auto;
+        border: 5px #a47550;
+        border-color: #a47550;
+      }
+      .paragraphe1,
+      .paragraphe2,
+      .paragraphe3,
+      .paragraphe4 {
+        color: #513a28;
+        text-align: left;
+      }
+      li {
+        color: #513a28;
+        text-align: left;
+        font-family: "Playfair Display", serif;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Les enfants face aux modalités de l’écriture numérique.</h1>
+    <div>
+      <p class="paragraphe1">
+        Nous vivons dans un monde où le numérique coupe une place capitale dans
+        le développement et également dans l’enseignement. Il est essentiel
+        d’initier les enfants aux modalités de l’écriture numérique afin qu’ils
+        puissent comprendre ce domaine sans lacunes. La question se pose :
+        est-il vraiment nécessaire que les enfants aient déjà des connaissances
+        sur les modalités liées à l’écriture numérique? Bien qu’il puisse être
+        discutable d’exposer les enfants aux appareils, dans ce contexte, est-il
+        encourageable de les pousser à maîtriser l’écriture numérique?
+      </p>
+      <p class="paragraphe2">
+        Les enfants devraient acquérir certaines compétences en écriture
+        numériques afin de pouvoir démontrer leur efficacité dans les domaines
+        qu’ils choisiront une fois lancés dans la vie universitaire, et ensuite,
+        dans la vie professionnelle. Comme l’ont souligné Alvarez et Payn (2021)
+        dans leur résumé, en se positionnant dans le domaine des humanités
+        numériques, ils remettent en question les définitions affichées de la
+        citoyenneté numérique, les confrontent à la nature sui generis du
+        numérique et de son industrie, pour enfin interroger leur rapprochement
+        avec l’école publique. Ils mettent en lumière les enjeux d’émancipation
+        citoyenne, d’autonomie et de gouvernance qui alimentent l’analyse,
+        concluant ainsi à la nécessité de débattre des contradictions
+        pédago-numériques.
+      </p>
+      <p class="paragraphe3">
+        L’écriture numérique est indispensable, car sans elle, les enfants
+        pourraient être confrontés à d’énormes problèmes en naviguant dans la
+        nouvelle réalité de l’enfance numérique tout en étant exposés à des
+        informations contradictoires (Teichert et Salman, 2021). Bien sûr,
+        exposer les enfants à internet comporte des dangers, notamment le
+        cyberharcèlement et l’hypersexualisation des jeunes. Il est donc
+        impératif de rappeler qu’il est essentiel d’avoir un contrôle sur les
+        actions des enfants en ligne pour éviter tout préjudice. De plus, les
+        enfants sont souvent plus motivés à écrire lorsqu’ils peuvent utiliser
+        des outils numériques interactifs.
+      </p>
+      <p class="paragraphe4">
+        En conclusion, il est bénéfique pour nos enfants d’apprendre les
+        modalités de l’écriture numérique, idéalement dès l’école, car cela
+        représente l’avenir. Cependant, il est crucial de maintenir un équilibre
+        en assurance une supervision adéquate pour garantir leur sécurité tout
+        en exposant ce vaste monde numérique.
+      </p>
+    </div>
+    <img src="enfant.png" width="450" alt="Enfant face à un ordinateur" />
+    <button>Cliquez ici</button>
+    <hr />
+    <ul>
+      <li>
+        Alvarez, L. Payn, M. (2021).<em>
+          La numérisation de l’école au prisme de la citoyenneté.</em
+        >
+        Éthique et technologie numérique en éducation, (11),64-82.
+        <a href="https://doi.org/10.7202/1084197ar ">Lien URL</a>
+      </li>
+      <li>
+        Teichert, L. Salman, M. (2021).<em>
+          Digital technology in the early years: A reflection of the
+          literature.</em
+        >
+        McGill Journal of Éducation / Revue des sciences de l’éducation de
+        McGill,56(2-3),292-313.
+        <a href="https://doi.org/10.7202/1096456ar ">Lien URL</a>
+      </li>
+    </ul>
+    <script>
+      function infoButton() {
+        let prenom = prompt("Quel est votre prenom ?");
+        let nom = prompt("Qule est votre nom ?");
+
+        alert("Merci" + " " + prenom + ",nous te contacterons bientôt");
+      }
+
+      let cliquezIci = document.querySelector("button");
+      cliquezIci.addEventListener("click", infoButton);
+    </script>
+  </body>
+</html>
